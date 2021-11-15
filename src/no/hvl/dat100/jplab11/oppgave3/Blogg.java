@@ -94,6 +94,7 @@ public class Blogg {
 		if (!ledigPlass()) {
 			utvid();
 		}
+		
 		innleggtabell[nesteledig] = innlegg;
 		nesteledig++;
 		return true;
